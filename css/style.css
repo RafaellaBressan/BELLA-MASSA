@@ -154,3 +154,204 @@ display:none;
 }
 
 }
+
+html{
+scroll-behavior:smooth;
+}
+
+header{
+z-index:1000;
+border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.whats-header{
+background:#25D366;
+color:#fff;
+padding:10px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+.badge{
+display:inline-block;
+background:#E9D8C8;
+padding:8px 16px;
+border-radius:30px;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.hero-buttons{
+display:flex;
+gap:15px;
+margin:30px 0;
+flex-wrap:wrap;
+}
+
+.btn-outline{
+border:2px solid #8B5A3C;
+padding:13px 28px;
+border-radius:50px;
+text-decoration:none;
+color:#8B5A3C;
+font-weight:600;
+}
+
+.stats{
+display:flex;
+gap:40px;
+margin-top:25px;
+}
+
+.stats h3{
+font-size:28px;
+font-family:"Playfair Display";
+}
+
+.stats span{
+font-size:14px;
+color:#7b6d63;
+}
+
+.card-content{
+padding:22px;
+}
+
+.desc{
+color:#6f6259;
+font-size:14px;
+margin:12px 0;
+line-height:1.6;
+}
+
+.price{
+font-size:22px;
+font-weight:700;
+color:#8B5A3C;
+}
+
+.gallery{
+padding:80px 8%;
+}
+
+.gallery h2{
+font-size:42px;
+font-family:"Playfair Display";
+margin-bottom:40px;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+}
+
+.gallery-grid img{
+width:100%;
+height:240px;
+object-fit:cover;
+border-radius:18px;
+cursor:pointer;
+transition:.3s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.03);
+}
+
+.feedbacks{
+padding:80px 8%;
+background:#EFE6DC;
+}
+
+.feedbacks h2{
+font-size:42px;
+font-family:"Playfair Display";
+text-align:center;
+margin-bottom:40px;
+}
+
+.feedback-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+}
+
+.feedback{
+background:#fff;
+padding:30px;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.stars{
+color:#D6A84A;
+font-size:20px;
+margin-bottom:15px;
+}
+
+.feedback h4{
+margin-top:20px;
+}
+
+.social{
+display:flex;
+justify-content:center;
+gap:20px;
+margin:25px 0;
+}
+
+.social a{
+color:white;
+text-decoration:none;
+}
+
+.copy{
+margin-top:30px;
+opacity:.7;
+font-size:14px;
+}
+
+.modal{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.85);
+justify-content:center;
+align-items:center;
+z-index:2000;
+}
+
+.modal img{
+max-width:85%;
+max-height:80%;
+border-radius:20px;
+}
+
+.close{
+position:absolute;
+top:30px;
+right:40px;
+font-size:40px;
+color:#fff;
+cursor:pointer;
+}
+
+@media(max-width:900px){
+
+.gallery-grid,
+.feedback-grid{
+grid-template-columns:1fr;
+}
+
+.stats{
+justify-content:space-between;
+gap:10px;
+}
+
+.whats-header{
+display:none;
+}
+
+}

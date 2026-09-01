@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bella Massa</title>
 
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
+
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,32 +22,66 @@
   <div class="logo">BELLA MASSA</div>
 
   <nav>
-    <a href="#menu">Menu</a>
+    <a href="#menu">Cardápio</a>
+    <a href="#galeria">Galeria</a>
     <a href="#sobre">Sobre</a>
-    <a href="#contato">Contato</a>
+    <a href="#feedbacks">Avaliações</a>
   </nav>
+
+  <a href="https://wa.me/5511999999999" target="_blank" class="whats-header">
+    WhatsApp
+  </a>
 
 </header>
 
 <section class="hero">
 
-  <div class="hero-text">
+<div class="hero-text">
 
-    <span>Cafeteria Artesanal</span>
+<div class="badge">
+  ☕ Café Especial • Fermentação Natural
+</div>
 
-    <h1>Pães frescos e cafés especiais.</h1>
+<h1>Pães frescos e cafés especiais.</h1>
 
-    <p>Uma experiência acolhedora para quem ama brunch, cafés e confeitaria premium.</p>
+<p>
+Uma cafeteria artesanal criada para quem aprecia brunch, doces finos e uma experiência acolhedora em cada visita.
+</p>
 
-    <a href="#" class="btn">Fazer Pedido</a>
+<div class="hero-buttons">
+<a href="https://wa.me/5511999999999" target="_blank" class="btn">
+Fazer pedido
+</a>
 
-  </div>
+<a href="#menu" class="btn-outline">
+Ver cardápio
+</a>
+</div>
 
-  <div class="hero-image">
+<div class="stats">
 
-    <img src="assets/img/hero.jpg" alt="Café">
+<div>
+<h3>4.9★</h3>
+<span>Google</span>
+</div>
 
-  </div>
+<div>
+<h3>+800</h3>
+<span>Clientes</span>
+</div>
+
+<div>
+<h3>100%</h3>
+<span>Artesanal</span>
+</div>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+<img src="assets/img/hero.jpg" alt="Café Bella Massa">
+</div>
 
 </section>
 
@@ -55,25 +91,119 @@
 
   <div class="cards">
 
-    <div class="card">
-      <img src="assets/img/croissant.jpg">
-      <h3>Croissant</h3>
-      <p>R$12</p>
-    </div>
+<div class="card">
 
-    <div class="card">
-      <img src="assets/img/cappuccino.jpg">
-      <h3>Cappuccino</h3>
-      <p>R$16</p>
-    </div>
+<img src="assets/img/croissant.jpg">
 
-    <div class="card">
-      <img src="assets/img/cinnamon.jpg">
-      <h3>Cinnamon Roll</h3>
-      <p>R$18</p>
-    </div>
+<div class="card-content">
 
-  </div>
+<h3>Croissant Francês</h3>
+
+<p class="desc">
+Massa folhada amanteigada assada diariamente.
+</p>
+
+<div class="price">
+R$ 12
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="assets/img/cappuccino.jpg">
+
+<div class="card-content">
+
+<h3>Cappuccino Especial</h3>
+
+<p class="desc">
+Espresso intenso com leite vaporizado e cacau.
+</p>
+
+<div class="price">
+R$ 16
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="assets/img/cinnamon.jpg">
+
+<div class="card-content">
+
+<h3>Cinnamon Roll</h3>
+
+<p class="desc">
+Canela, cobertura cremosa e massa macia.
+</p>
+
+<div class="price">
+R$ 18
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria" class="gallery">
+
+<h2>Nossa cafeteria</h2>
+
+<div class="gallery-grid">
+
+<img src="assets/img/cafe1.jpg" class="lightbox">
+
+<img src="assets/img/cafe2.jpg" class="lightbox">
+
+<img src="assets/img/cafe3.jpg" class="lightbox">
+
+</div>
+
+</section>
+
+<div id="modal" class="modal">
+
+<span class="close">&times;</span>
+
+<img id="modalImg">
+
+</div>
+
+<section id="feedbacks" class="feedbacks">
+
+<h2>O que nossos clientes dizem</h2>
+
+<div class="feedback-grid">
+
+<div class="feedback">
+<div class="stars">★★★★★</div>
+<p>"O melhor cappuccino que já tomei em Guarulhos. Ambiente lindo e atendimento impecável."</p>
+<h4>Marina S.</h4>
+</div>
+
+<div class="feedback">
+<div class="stars">★★★★★</div>
+<p>"Os croissants parecem de Paris. Vale cada centavo."</p>
+<h4>Lucas A.</h4>
+</div>
+
+<div class="feedback">
+<div class="stars">★★★★★</div>
+<p>"Brunch perfeito para domingo. Com certeza voltarei."</p>
+<h4>Fernanda M.</h4>
+</div>
+
+</div>
 
 </section>
 
@@ -92,11 +222,29 @@
 
 <footer id="contato">
 
-  <h2>Bella Massa</h2>
+<h2>Bella Massa</h2>
 
-  <p>Rua das Flores, 120</p>
+<p>Rua das Flores, 120 • Guarulhos/SP</p>
 
-  <a class="btn">WhatsApp</a>
+<p>Seg–Dom • 08h às 20h</p>
+
+<div class="social">
+
+<a href="#">Instagram</a>
+
+<a href="#">Facebook</a>
+
+<a href="https://wa.me/5511999999999">WhatsApp</a>
+
+</div>
+
+<a href="https://wa.me/5511999999999" class="btn" target="_blank">
+Pedir pelo WhatsApp
+</a>
+
+<p class="copy">
+© 2026 Bella Massa • Todos os direitos reservados.
+</p>
 
 </footer>
 
